@@ -18,6 +18,7 @@ public class TimeScript : MonoBehaviour {
 		gameover_text.SetActive (false);
 		result_button.SetActive (false);
 		timebar = GetComponent <Slider>();
+		timebar.maxValue = 3.5f;
 		timebar.value = timebar.maxValue;
 		gameover_flag = false;
 		time = timebar.maxValue;

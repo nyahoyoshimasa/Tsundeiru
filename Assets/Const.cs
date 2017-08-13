@@ -1,6 +1,6 @@
 ﻿namespace Const {
 	public static class C0 {
-		public const int skill_require_num = 5;
+		public const int skill_require_num = 15;
 		public const int animal_species = 5;
 		public const int basic_point = 100;
 		public const int number_animal = 50;

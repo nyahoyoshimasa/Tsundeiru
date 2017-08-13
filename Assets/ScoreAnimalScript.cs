@@ -19,6 +19,7 @@ public class ScoreAnimalScript : MonoBehaviour {
 		for (int i = 0; i < Const.C0.animal_species; i++) {
 			total_num_animal [i] = PlayerPrefs.GetInt ("BESTANIMAL" + i.ToString (), 0) + num_animal [i];
 			PlayerPrefs.SetInt ("Lv.ANIMAL" + i.ToString (), (total_num_animal[i]/100) * 20);
+			PlayerPrefs.SetInt ("BESTANIMAL" + i.ToString (), total_num_animal [i]);
 		}
 		catText.GetComponent<Text> ().text = "CAT:" + num_animal[0].ToString () + "\n(Total:" + total_num_animal[0].ToString() + "  |  Lv:" + (total_num_animal[0]/100).ToString() + ")";
 		dogText.GetComponent<Text> ().text = "TORA:" + num_animal[1].ToString () + "\n(Total:" + total_num_animal[1].ToString() + "  |  Lv:" + (total_num_animal[1]/100).ToString() + ")";

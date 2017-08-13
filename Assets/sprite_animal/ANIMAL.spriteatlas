@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ANIMAL
+  m_EditorData:
+    textureSettings:
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      colorSpace: 1
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+    platformSettings:
+    - m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+    packingParameters:
+      paddingPower: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: e28b71d1d84dc1f20343ead119cc375b
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: e28b71d1d84dc1f20343ead119cc375b
+    totalSpriteSurfaceArea: 20480
+    packables:
+    - {fileID: 2800000, guid: a2df4da6c07064d69a18dd4097178f6b, type: 3}
+    - {fileID: 2800000, guid: 8ca9d3dfca9d2429db161928f891f3ab, type: 3}
+    - {fileID: 2800000, guid: 4656fdc04fee642b483a7264c84d604c, type: 3}
+    - {fileID: 2800000, guid: bd08379be11c84565bb01de4cb0f9825, type: 3}
+    - {fileID: 2800000, guid: 9fbc01c097c2b4b9eaf4545a9a4f177b, type: 3}
+    packedSpriteRenderDataKeys:
+    - 9fbc01c097c2b4b9eaf4545a9a4f177b: 21300000
+    - bd08379be11c84565bb01de4cb0f9825: 21300000
+    - a2df4da6c07064d69a18dd4097178f6b: 21300000
+    - 4656fdc04fee642b483a7264c84d604c: 21300000
+    - 8ca9d3dfca9d2429db161928f891f3ab: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9fbc01c097c2b4b9eaf4545a9a4f177b, type: 3}
+  - {fileID: 21300000, guid: bd08379be11c84565bb01de4cb0f9825, type: 3}
+  - {fileID: 21300000, guid: a2df4da6c07064d69a18dd4097178f6b, type: 3}
+  - {fileID: 21300000, guid: 4656fdc04fee642b483a7264c84d604c, type: 3}
+  - {fileID: 21300000, guid: 8ca9d3dfca9d2429db161928f891f3ab, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ANIMAL5
+  - ANIMAL4
+  - ANIMAL1
+  - ANIMAL3
+  - ANIMAL2
+  m_Tag: ANIMAL
+  m_IsVariant: 0
